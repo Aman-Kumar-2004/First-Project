@@ -41,8 +41,12 @@ nav ul li a{
     color: white;
     text-decoration: none;
     font-size: 20px;
+    padding: 2px 5px;
 }
-
+nav ul li a:hover{
+    background-color: #024d9c;
+    border-radius: 20px;
+}
 nav ul li{
     padding: 10px 0px;
     text-decoration: none;
@@ -101,7 +105,11 @@ nav ul li{
     gap: 30px;
 }
 .icons i{
+    width: 65px;
+    height: 60px;
     font-size: 50px;
+    padding-top: 10px;
+    border-radius: 50%;
 }
 
 .btn:hover{
@@ -109,6 +117,9 @@ nav ul li{
 }
 .btn1:hover{
     background-color: #832229;
+}
+.icons i:hover{
+    background-color: #024d9c;
 }
 @media only screen and (min-width:750px) {
     nav ul{
