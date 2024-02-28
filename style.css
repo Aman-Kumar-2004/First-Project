@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #007aff;
+
+}
+
+nav{
+    background-color: #007aff;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+
+.logo img{
+    margin-top: 20px;
+    width: 60px;
+    border-radius: 10px;
+}
+
+.bar{
+    margin: 25px 0px;
+    display: flex;
+}
+
+.bar i{
+    font-size: 28px;
+    color: white; 
+}
+
+nav ul{
+    display: none;
+    list-style-type: none;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li{
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.main1{
+    margin-top: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.btn{
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    display: none;
+    background-color: #ee626b;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    transition: all .3s;
+    height: 40px;
+}
+
+.btn1{
+    border-radius: 20px;
+    padding: 12px 20px;
+    background-color: #ee626b;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    transition: all .3s;
+    margin-top: 10px;
+    height: 44px;
+}
+
+.img1{
+    width: 310px;
+    height: 400px;
+}
+
+.img1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.icons{
+    display: flex;
+    gap: 30px;
+}
+.icons i{
+    font-size: 50px;
+}
+
+@media only screen and (min-width:750px) {
+    nav ul{
+        display: flex;
+    }
+    .bar{
+        display: none;
+    }
+    .btn{
+        display: flex;
+    }
+    .main1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .para1{
+        padding-top: 50px;
+        text-align: left;
+        width: 400px;
+    }
+    .icons{
+        flex-direction: column;
+    }
+   
+} 
